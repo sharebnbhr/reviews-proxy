@@ -1,0 +1,3 @@
+[submodule "reviews"]
+	path = reviews
+	url = https://github.com/sharebnbhr/reviews
