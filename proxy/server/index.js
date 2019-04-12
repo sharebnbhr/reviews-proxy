@@ -13,6 +13,7 @@ app.use('/api', proxy({
   router: {
     '/rating': 'http://localhost:3004',
     '/reviews': 'http://localhost:3004',
+    '/desc': 'http://localhost:3002'
   },
   changeOrigin: true 
 }));

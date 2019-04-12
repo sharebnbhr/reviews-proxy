@@ -1,3 +1,6 @@
 [submodule "reviews"]
 	path = reviews
 	url = https://github.com/sharebnbhr/reviews
+[submodule "property_description"]
+	path = property_description
+	url = https://github.com/sharebnbhr/property_description
