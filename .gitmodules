@@ -4,3 +4,6 @@
 [submodule "property_description"]
 	path = property_description
 	url = https://github.com/sharebnbhr/property_description
+[submodule "gallery"]
+	path = gallery
+	url = https://github.com/sharebnbhr/gallery
