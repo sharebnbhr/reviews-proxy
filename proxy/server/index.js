@@ -11,10 +11,11 @@ app.use(express.static(path.join(__dirname, '../public')));
 app.use('/api', proxy({ 
   target: 'http://localhost:3000', 
   router: {
-    '/rating': 'http://localhost:3004',
-    '/reviews': 'http://localhost:3004',
+    '/photos': 'http://localhost:3001',
     '/desc': 'http://localhost:3002',
-    '/photos': 'http://localhost:3001'
+    '/reservations': 'http://localhost:3003',
+    '/rating': 'http://localhost:3004',
+    '/reviews': 'http://localhost:3004'
   },
   changeOrigin: true 
 }));

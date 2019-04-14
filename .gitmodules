@@ -7,3 +7,6 @@
 [submodule "gallery"]
 	path = gallery
 	url = https://github.com/sharebnbhr/gallery
+[submodule "Reservation-Checkout"]
+	path = Reservation-Checkout
+	url = https://github.com/sharebnbhr/Reservation-Checkout
