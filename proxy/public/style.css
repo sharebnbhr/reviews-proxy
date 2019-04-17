@@ -1,0 +1,49 @@
+#navBarSS {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#navBarSS img {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#spacer {
+  height: 300px;
+}
+
+#mainFlexbox {
+  display: flex;
+  flex-direction: row;
+  width: min-content;
+  margin: auto;
+}
+#hostInfo,
+#neighborhood,
+#policies {
+  width: 100%;
+}
+
+#right-col {
+  margin-top: 20px;
+}
+
+#bookings-master-container {
+  position: sticky;
+  top: 70px;
+  margin-left: 40px;
+}
+
+#screenshot-footer {
+  justify-content: center;
+  width: min-content;
+  margin: auto;
+}
+
+#bottom-pic-thingy {
+  width: min-content;
+  margin: auto;
+}
